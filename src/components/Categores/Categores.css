@@ -1,0 +1,81 @@
+.cat__group {
+  margin-top: 37px;
+}
+.cat__lists {
+  overflow: hidden;
+  position: relative;
+  z-index: 100000;
+}
+.cat__list {
+  display: flex;
+  align-items: center; 
+  position: relative;
+  left: 10px;
+  z-index: 1;
+  transform: translateX(0px);
+  transition: all 0.4s ease;
+}
+.cat__item {
+  text-align: center;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.cat__item:nth-child(1) {
+  margin-left: 0;
+}
+.cat__img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 6px;
+}
+.cat__text {
+  width: 107px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+}
+.cat__btns {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 80px;
+  z-index: 999;
+}
+.cat__btn {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  color: #4E72CA;
+  background-color: #fff;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.cat__btn:hover {
+  background-color: #4E72CA;
+  color: #fff;
+}
+.prev {
+  position: relative; 
+  right:40px;
+  z-index: 2;
+}
+.next {
+  position: relative;
+  left: 40px;
+  z-index: 2;
+}
+.bx-left-arrow-alt {
+  position: relative;
+  top: 3px;
+}
+.bx-right-arrow-alt {
+  position: relative;
+  top: 3px;
+}

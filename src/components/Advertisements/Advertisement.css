@@ -1,0 +1,48 @@
+.ads {
+  background: rgba(182, 202, 251, 0.159986);
+  box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+  margin-top: 20px;
+  padding: 75px 0px 0px 0px;
+}
+.ads__lists {
+  overflow: hidden;
+  position: relative;
+}
+.ads__list {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(0);
+  transition: all 0.4s ease;
+}
+.ads__item {
+  margin-left: 29px;
+  cursor: pointer;
+}
+.ads__item:nth-child(1) {
+  margin-left: 0;
+}
+.ads__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: 130px;
+}
+.ads__btn {
+  border: none;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  color: #4E72CA;
+}
+.ads__btn:hover {
+  background-color:#4E72CA;
+  color: #fff;
+}
+.icn {
+  position: relative;
+  top: 2px;
+}

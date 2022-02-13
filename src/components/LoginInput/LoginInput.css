@@ -1,0 +1,9 @@
+.logininput__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginimg {
+  width: 700px;
+  height: 800px;
+}

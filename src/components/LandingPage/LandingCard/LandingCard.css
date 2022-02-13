@@ -1,0 +1,86 @@
+.landingcard {
+  margin-top: 98px;
+}
+.landingcard__btns {
+  border-bottom:1px solid #d5d5d5;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+.landingcard__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.landingcard__btnn {
+  border: none;
+  background-color: transparent;
+  margin-left: 83px;
+  cursor: pointer;
+}
+.landingcard__spn {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9B9B9B;
+}
+.landingcard__spn-active {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4E72CA;
+}
+.landingcard__spn-active::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #4E72CA;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 13px;
+}
+.landingcard__cardss {
+  overflow: hidden;
+}
+.landingcard__cards {
+  display: flex;
+  position: relative;
+  right: 25px;
+  transform: translateX(0px);
+  transition: all 0.4s ease;
+}
+.landingcard__cards-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 25px;
+  transform: translateX(0px);
+  transition: all 0.4s ease;
+}
+.landingcard__card {
+  margin-left: 32px;
+} 
+.landingcard__icons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 190px;
+}
+.landingcard__icon {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.landingcard__icon:hover {
+  background-color: #4E72CA;
+  color: #fff;
+}
+.nexts {
+  position: relative;
+  right: 20px;
+}

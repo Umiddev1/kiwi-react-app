@@ -1,0 +1,41 @@
+.inps {
+  width: 309px;
+  background: #FFFFFF;
+  border: 1px solid rgba(151, 151, 151, 0.482592);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: #c7c7c7;
+  margin-top: 26px;
+  padding: 20px 0;
+  padding-left: 20px;
+
+}
+.form__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 77px;
+}
+.form__btn {
+  width: 329px;
+  padding: 20px 0;
+  margin-top: 20px;
+  background: #41D481;
+  border: 1px solid #41D481;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+.is-invalid {
+  border: 1px solid red;
+}
+.error {
+  color: red;
+}

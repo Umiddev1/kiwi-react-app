@@ -1,0 +1,17 @@
+.landingimg__wrapper {
+  display: flex;
+}
+.landingpage {
+  margin-top: 61px;
+}
+.landingpage__title {
+  width: 1134px;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  color: #414D6A;
+  margin-bottom: 32px;
+}
+.landingpage__wrapper {
+  display: flex;
+}

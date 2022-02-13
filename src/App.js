@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import HomePage from "./pages/HomePage/HomePage";
+import ProductInfo from "./pages/ProductInfo/ProductInfo";
+import { Routes, Route } from "react-router-dom";
+import { ru } from "./components/Lang/translates";
+import { uzbek } from "./components/Lang/translates";
+import Login from "./pages/Login/Login";
 function App() {
+  const [translate, setTranslate] = useState(ru)
+  const [inputValue, setInputValue] = useState('')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Routes>
+          <Route path="/" element={<HomePage translate={translate} setTranslate={setTranslate} inputValue={inputValue} setInputValue={setInputValue} />} />
+          <Route path="/info/:id" element={<ProductInfo translate={translate} setTranslate={setTranslate}/>}/>
+          <Route path="/login" element={<Login translate={translate} setTranslate={setTranslate} />} />
+        </Routes>
     </div>
   );
 }

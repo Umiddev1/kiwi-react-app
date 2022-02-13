@@ -1,0 +1,19 @@
+.landingimgs__mini {
+  display: flex;
+  flex-direction: column;
+}
+.landingimg__mini {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.landingimgs__main {
+  margin-left: 12px;
+}
+.landingimg__main {
+  width: 456px;
+  height: 456px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}

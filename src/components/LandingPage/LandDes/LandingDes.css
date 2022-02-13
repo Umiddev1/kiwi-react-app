@@ -1,0 +1,209 @@
+.landingdes {
+  margin-left: 31px;
+}
+.landingdes__article {
+  display: flex;
+  align-items: center;
+}
+.landingdes__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #414D6A;
+  position: relative;
+  left: 25px;
+}
+
+.landingdes__subtext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #414D6A;
+  position: relative;
+  left: 180px;
+}
+.landingdes__price {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.00016833px;
+  color: #444;
+  margin-top: 18px;
+}
+.landingdes__links {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.landingdes__link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89154e-05px;
+  text-decoration-line: underline;
+  color: #4E72CA;
+}
+.landindes__number {
+  width: 341px;
+  padding: 9px 0;
+  background-color: #65E99F;
+  margin-bottom: 7px;
+  padding-left: 23px;
+  border-radius: 19px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -6.73319e-05px;
+  color: #000;
+  position: relative;
+}
+.star {
+  position: relative;
+  top: 6px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.eye {
+  padding: 9px 22px 10px 19px;
+  background: #41D481;
+  border-radius: 19px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.landingdes__avtor {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -3.17237e-05px;
+  color: #000;
+  margin-top: 17px;
+}
+.landingdes__user {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -4.13787e-05px;
+  text-decoration-line: underline;
+  color: #2AAE63;
+}
+.landindes__btns {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.landindes__btn {
+  padding: 15px 30px 16px 28px;
+  border: 2px solid #304fff;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #fff;
+  background-color: #304fff;
+  border-radius: 23.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.landindes__btn:hover {
+  background-color: #fff;
+  color: #304fff;
+}
+.landindes__btnn {
+  padding: 15px 32px 16px 32px;
+  font-weight: 800;
+  border: 2px solid #4E72CA;
+  background-color: #4e72ca;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #fff;
+  border-radius: 23.5px;
+  cursor: pointer;
+  margin-left: 11px;
+  transition: all 0.2s ease;
+}
+.landindes__btnn:hover {
+  background-color: #fff;
+  color: #4E72CA;
+}
+.landindes__list {
+  width: 650px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 13px;
+}
+.landindes__item {
+  width: 200px;
+  border-left: 1px solid rgba(151, 151, 151, 0.191604);
+  border-bottom: 1px solid rgba(151, 151, 151, 0.191604);
+  padding-top: 20px;
+}
+.landindes__item:nth-child(13) {
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+.table__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.00016833px;
+  color: #444;
+  margin-left: 17px;
+  margin-bottom: 4px;
+}
+.table__subtext {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.00016833px;
+  color: #444;
+  margin-left: 17px;
+  padding-bottom: 22px;
+}
+.table__subtexts {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.00016833px;
+  text-decoration-line: underline;
+  color: #4E72CA;
+  margin-left: 17px;
+}
+.table__subtextss {
+  width: 536px;
+}
+.text__line {
+  width: 558px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -3.85217e-05px;
+  color: #414D6A;
+  margin-bottom: 40px;
+}
+.text__lines {
+  width: 558px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -3.85217e-05px;
+  color: #414D6A;
+  margin-bottom: 19px;
+}
+.text__views {
+  display: flex;
+  margin-bottom: 20px;
+}
+.text__view {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #000;
+}
+.text__loading {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #D0021B;
+  margin-left: 210px;
+}
